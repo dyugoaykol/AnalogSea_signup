@@ -54,7 +54,7 @@ body
 
 .signup-form button
 {
-    background-color: #299A69;
+    background-color: #48E787;
     color:white;
     font-weight: bold;
     font-size: 22px;
@@ -72,8 +72,12 @@ body
 
 .signup-form button:hover
 {
-    background-color: #48E787;
-    
+    background-color: #299A69;
+    transition: background 0.8s;
+    -webkit-transition: background 0.8s;
+    -moz-transition: background 0.8s;
+
+       
 }
 
 
@@ -87,6 +91,8 @@ body
 {
     color: white;
 }
+
+
 .forgot-password
 {
     text-align: center;
@@ -95,7 +101,12 @@ body
     font-size: 15px;
     
 }
+
 .forgot-password a
 {
     color: grey;    
+}
+  a:hover
+{
+    color: #70C1C1;
 }
